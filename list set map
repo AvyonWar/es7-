@@ -1,0 +1,18 @@
+fun main() {
+    val numList = mutableListOf(3, 5, 7, 9, 10, 12)     //  ank con --> arrayOf()  -- al posto di -> setOf()
+    println(numList)
+    
+    println("_________________________________\n")
+    
+    val numString = numList.toString()  //  trasformane gli Int in String
+    println(numString)
+    println("----------")
+    val numIsStr = numString is String   //  conferma che è una stringa
+    println(numIsStr)
+    
+    println("_________________________________\n")
+    
+    numList.forEach{i -> println(i)} //  per stamparli uno a uno
+    
+   
+}
